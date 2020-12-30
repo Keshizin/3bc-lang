@@ -12,3 +12,6 @@ main
 
 # IDE FILES
 .vscode
+
+# Ignoring Build's stuff
+build/build-mingw-32/
