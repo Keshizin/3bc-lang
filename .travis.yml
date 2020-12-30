@@ -1,7 +1,7 @@
 language: c
 sudo: false
 script:
-  - gcc -coverage -O0 main.c -o program
+  - gcc -coverage -O0 main.c -o program -lm
   - ./program
   - gcov main.c
 
